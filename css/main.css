@@ -1,0 +1,140 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas:
+      "equipment-mastery elemental-magic magic-style utility trade"
+      "sword-mastery fire-magic destruction-magic pacify alchemy"
+      "spear-mastery water-magic disruption-magic provoke cooking"
+      "hammer-mastery electric-magic healing-magic detection crafting"
+      "axe-mastery ground-magic illusion-magic stealth farming"
+      "dagger-mastery nature-magic protection-magic thievery fishing"
+      "bow-mastery air-magic summoning-magic monster-taming mining"
+      "staff-mastery ice-magic transformation-magic leadership smithing"
+      "shield-mastery light-magic portal-magic . vending"
+      "martial-arts-mastery dark-magic . . ."
+      ". arcane-magic . . .";
+  }
+  
+  .equipment-mastery { grid-area: equipment-mastery; }
+  
+  .elemental-magic { grid-area: elemental-magic; }
+  
+  .magic-style { grid-area: magic-style; }
+  
+  .utility { grid-area: utility; }
+  
+  .trade { grid-area: trade; }
+  
+  .sword-mastery { grid-area: sword-mastery; }
+  
+  .spear-mastery { grid-area: spear-mastery; }
+  
+  .hammer-mastery { grid-area: hammer-mastery; }
+  
+  .axe-mastery { grid-area: axe-mastery; }
+  
+  .dagger-mastery { grid-area: dagger-mastery; }
+  
+  .bow-mastery { grid-area: bow-mastery; }
+  
+  .staff-mastery { grid-area: staff-mastery; }
+  
+  .shield-mastery { grid-area: shield-mastery; }
+  
+  .martial-arts-mastery { grid-area: martial-arts-mastery; }
+  
+  .fire-magic { grid-area: fire-magic; }
+  
+  .water-magic { grid-area: water-magic; }
+  
+  .electric-magic { grid-area: electric-magic; }
+  
+  .ground-magic { grid-area: ground-magic; }
+  
+  .nature-magic { grid-area: nature-magic; }
+  
+  .air-magic { grid-area: air-magic; }
+  
+  .ice-magic { grid-area: ice-magic; }
+  
+  .light-magic { grid-area: light-magic; }
+  
+  .dark-magic { grid-area: dark-magic; }
+  
+  .arcane-magic { grid-area: arcane-magic; }
+  
+  .destruction-magic { grid-area: destruction-magic; }
+  
+  .disruption-magic { grid-area: disruption-magic; }
+  
+  .healing-magic { grid-area: healing-magic; }
+  
+  .illusion-magic { grid-area: illusion-magic; }
+  
+  .protection-magic { grid-area: protection-magic; }
+  
+  .summoning-magic { grid-area: summoning-magic; }
+  
+  .transformation-magic { grid-area: transformation-magic; }
+  
+  .portal-magic { grid-area: portal-magic; }
+  
+  .pacify { grid-area: pacify; }
+  
+  .provoke { grid-area: provoke; }
+  
+  .detection { grid-area: detection; }
+  
+  .stealth { grid-area: stealth; }
+  
+  .thievery { grid-area: thievery; }
+  
+  .monster-taming { grid-area: monster-taming; }
+  
+  .leadership { grid-area: leadership; }
+  
+  .alchemy { grid-area: alchemy; }
+  
+  .cooking { grid-area: cooking; }
+  
+  .crafting { grid-area: crafting; }
+  
+  .farming { grid-area: farming; }
+  
+  .fishing { grid-area: fishing; }
+  
+  .mining { grid-area: mining; }
+  
+  .smithing { grid-area: smithing; }
+  
+  .vending { grid-area: vending; }
+  
+/*  Borrowed code Starts for Skill Bar from https://www.w3schools.com/howto/howto_css_skill_bar.aspContainer for skill bars */
+.skillbar {
+    width: 100%; /* Full width */
+    background: rgb(115,115,115);
+    background: linear-gradient(157deg, rgba(115,115,115,1) 0%, rgba(0,0,0,0.5858544101234244) 16%, rgba(0,0,0,1) 81%, rgba(0,0,0,1) 50%); 
+    border-radius: 25px;
+  }
+  
+  .skills {
+    text-align: center; /* Right-align text */
+    padding-top: 5x; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    
+  
+  }
+  
+  /* Color Gradients generated from: https://cssgradient.io/*/
+  .sword-mastery-level {
+      width: 50%; 
+      background: rgb(2,0,36);
+      background: linear-gradient(27deg, rgba(2,0,36,1) 20%, rgba(14,53,191,1) 48%, rgba(0,212,255,1) 82%);
+      border-radius: 25px;
+      height: 20px;} 
+      /* Green */
+  
+  /*  Borrowed code Ends for Skill Bar from https://www.w3schools.com/howto/howto_css_skill_bar.aspContainer for skill bars */
+  
