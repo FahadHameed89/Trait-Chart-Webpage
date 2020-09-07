@@ -133,8 +133,14 @@
       background: rgb(2,0,36);
       background: linear-gradient(27deg, rgba(2,0,36,1) 20%, rgba(14,53,191,1) 48%, rgba(0,212,255,1) 82%);
       border-radius: 25px;
-      height: 20px;} 
+      height: 15px;
+      font-size: 16px;
+      align-items: center;
+        overflow-block: true;} 
       /* Green */
   
   /*  Borrowed code Ends for Skill Bar from https://www.w3schools.com/howto/howto_css_skill_bar.aspContainer for skill bars */
   
+  p {
+      text-align: center;
+  }
